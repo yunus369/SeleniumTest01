@@ -40,5 +40,6 @@ public class amzon1 {
         Assert.assertFalse(driver.findElement(By.xpath("//a[contains(text(),'Amazon Pay')]")).isDisplayed());
         Assert.assertTrue(driver.findElement(By.xpath("//a[contains(text(),'Best Sellers')]")).isDisplayed());
       //  driver.manage().timeouts().implicitlyWait(30);
+        driver.close();
     }
 }
