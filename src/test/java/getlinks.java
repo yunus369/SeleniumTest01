@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
@@ -46,6 +47,7 @@ public class getlinks {
             System.out.println(driver.getTitle());
             driver.close();
             driver.switchTo().window(parent);
+            System.out.println("Testcase is completed");
         }
 
 
